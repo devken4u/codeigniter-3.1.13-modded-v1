@@ -7,6 +7,7 @@
     <title><?php echo isset($title) ? $title : 'App' ?></title>
     <!-- Default CSS -->
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap-icons-1.13.1/bootstrap-icons.css'); ?>">
     <!-- Page Specific CSS -->
     <?php
     if (isset($styles)) {

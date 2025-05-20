@@ -1,6 +1,6 @@
 # Custom Modded CodeIgniter 3 Template
 
-A customized CodeIgniter 3 setup with Bootstrap and jQuery included and a ready-to-use layout structure for rapid web application development.
+A customized CodeIgniter 3 setup with Bootstrap, Bootstrap Icons and jQuery included and a ready-to-use layout structure for rapid web application development.
 
 ---
 
@@ -31,6 +31,10 @@ RewriteRule ^(.*)$ index.php/$1 [L]
 
 Bootstrap v5.3.6 has been downloaded and placed in the `root/assets/bootstrap` directory.
 
+## Bootstrap Icons Integration
+
+Bootstrap Icons v1.13.1 has been downloaded and placed in the `root/assets/bootstrap-icons-1.13.1` directory.
+
 ## jQuery Integration
 
 jQuery v3.7.1 has been downloaded and placed in the `root/assets/jquery` directory.
@@ -53,6 +57,7 @@ Individual views can extend this main layout, allowing you to focus only on the 
     <title><?php echo isset($title) ? $title : 'App' ?></title>
     <!-- Default CSS -->
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap-icons-1.13.1/bootstrap-icons.css'); ?>">
     <!-- Page Specific CSS -->
     <?php
     if (isset($styles)) {
