@@ -156,3 +156,6 @@ $this->load->view('layouts/main', $data);
 
 ### App_Session.php
 - A custom library that uses session library with custom function for better session handling
+
+### Response_Handler.php
+- API Response Handler
