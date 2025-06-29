@@ -151,3 +151,8 @@ $this->load->view('layouts/main', $data);
 - It passes the $data array to this layout.
 - Inside main.php, you can access $title and $content variables to display the page title and embed the page-specific content respectively.
 - This allows you to keep a consistent layout while dynamically injecting different page contents.
+
+## Libraries
+
+### App_Session.php
+- A custom library that uses session library with custom function for better session handling
